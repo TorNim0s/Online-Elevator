@@ -1,0 +1,43 @@
+**** The Simulator log: stage 1
+0.0,OOP_Ex0_Elevator_Simulator
+0.0,Simulated Building, ex0.simulator.Builging_A [-2,10]
+0) ex0.simulator.Elevator_A, Elev_0, speed: 1.0, open/close: 2.0,  start/stop: 3.0
+0.0,Simulated Period starTime,0.0,  endTime,100.0,  dt,1.0
+0.0,Simulated  calls,Elevetor log, size: 10
+0.0,**** Simulation starts!! ****
+1.0,Elevator call,0.437472729039321,0,-1,1,0, got allocated to elevator, 0
+1.0, elevID,0,  pos,-2,  cmd, goto,0
+3.0,Elevator call,2.2094056301593525,0,-1,1,0, got allocated to elevator, 0
+13.0,Elev,0,  arrived at src, 0, Elevator call,0.437472729039321,0,-1,2,0
+13.0,Elev,0,  arrived at src, 0, Elevator call,2.2094056301593525,0,-1,2,0
+13.0, elevID,0,  pos,0,  cmd, goto,0
+14.0, elevID,0,  pos,0,  cmd, goto,-1
+19.0,Elevator call,18.77299317966884,-1,-2,1,0, got allocated to elevator, 0
+20.0,Elevator call,19.590869649656987,0,7,1,0, got allocated to elevator, 0
+25.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,0.437472729039321,0,-1,3,0, Done, dt, 24.56252727096068
+25.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,2.2094056301593525,0,-1,3,0, Done, dt, 22.790594369840647
+25.0,Elev,0,  arrived at src, -1, Elevator call,18.77299317966884,-1,-2,2,0
+25.0, elevID,0,  pos,-1,  cmd, goto,0
+30.0,Elevator call,29.579433566814906,0,1,1,0, got allocated to elevator, 0
+34.0,Elevator call,33.242673193933555,0,10,1,0, got allocated to elevator, 0
+36.0,Elev,0,  arrived at src, 0, Elevator call,19.590869649656987,0,7,2,0
+36.0,Elev,0,  arrived at src, 0, Elevator call,29.579433566814906,0,1,2,0
+36.0,Elev,0,  arrived at src, 0, Elevator call,33.242673193933555,0,10,2,0
+36.0, elevID,0,  pos,0,  cmd, goto,0
+37.0, elevID,0,  pos,0,  cmd, goto,0
+38.0, elevID,0,  pos,0,  cmd, goto,-1
+49.0, elevID,0,  pos,-1,  cmd, goto,-1
+50.0, elevID,0,  pos,-1,  cmd, goto,-2
+53.0,Elevator call,52.96277472128405,3,-1,1,0, got allocated to elevator, 0
+61.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,18.77299317966884,-1,-2,3,0, Done, dt, 42.227006820331155
+61.0, elevID,0,  pos,-2,  cmd, goto,3
+65.0,Elevator call,64.38547514955395,-1,2,1,0, got allocated to elevator, 0
+73.0,Elevator call,72.26161212799506,10,0,1,0, got allocated to elevator, 0
+76.0,Elev,0,  arrived at src, 3, Elevator call,52.96277472128405,3,-1,2,0
+76.0, elevID,0,  pos,3,  cmd, goto,10
+81.0,Elevator call,80.56754743307536,-1,-2,1,0, got allocated to elevator, 0
+93.0,Elev,0,  arrived at dest, 10, this call is done!, Elevator call,33.242673193933555,0,10,3,0, Done, dt, 59.757326806066445
+93.0,Elev,0,  arrived at src, 10, Elevator call,72.26161212799506,10,0,2,0
+93.0, elevID,0,  pos,10,  cmd, goto,-1
+100.0,************* Simulation Ended ************
+Code Owners,209161447,207810458,  Case,1,  Total waiting time: 429.9897426188186,  average waiting time per call: 42.998974261881855,  unCompleted calls,6,  certificate, -1360690064
